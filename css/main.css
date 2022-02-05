@@ -1,0 +1,245 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h4{
+    white-space: nowrap;
+}
+.logo p{
+    color: #626fe4;
+    font-weight: bold;
+}
+.logo span{
+    color:#fff;
+    font-weight: normal;
+}
+.logo{
+    text-transform: uppercase;
+    font-size:24px;
+}
+.header{
+    background-image: url(../img/bg.png);
+    padding-top:35px;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.menu{
+    color:#fff;
+    text-transform: uppercase;
+}
+.menu__item{
+    margin-right: 71px;
+    font-size:12px;
+    font-weight: normal;
+}
+.offer{
+    color:#fff;
+    font-size:17px;
+    padding-top: 216px;
+    padding-bottom: 242px;
+}
+.offer__title{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:34px;
+}
+.offer__button{
+    font-weight: bold;
+    color:#fff;
+    text-transform: uppercase;
+    background-color: #e84545;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left:49px;
+    padding-right:49px;
+    border-radius:4px;
+    border:none;
+}
+.container{
+    padding:0;
+}
+.row{
+    margin:0;
+    width:100%;
+
+}
+.advantages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:0 auto;
+    padding-right: 94px;
+    padding-left: 94px;
+    padding-top:122px;
+    
+}
+.adv{
+    width:390px;
+    padding-bottom:76px;
+}
+.adv p{
+    margin:0;
+}
+.adv__title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:14px;
+    padding-top:35px;
+    padding-bottom:26px;
+}
+.adv__text{
+    font: size 14px;
+    font-weight: normal;
+}
+.photos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin:0 auto;
+    padding-right: 160px;
+    padding-left: 160px;
+}
+.photo{
+    width:270px;
+    padding-bottom: 26px;
+}
+.photos__item:hover:after {
+    width: 270px;
+    height: 211px;
+    padding: 70px;
+    position: absolute;
+    margin-left: -270px;
+    content: '+';
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #e84545;
+  }
+  .photos{
+      padding-bottom:103px;
+  }
+  .people{
+      background: #f1f2fd;
+      display: flex;
+      justify-content: space-around;
+      padding-right: 160px;
+      padding-left: 175px;
+      padding-top:125px;
+      padding-bottom: 137px;
+  }
+  .people__item_name{
+      font-weight: bold;
+      font-size:22px;
+  }
+  .people__item_post{
+      text-transform: uppercase;
+      font-weight: normal;
+      color:#e84545;
+      font-size: 13px;
+  }
+  .people__item_description{
+      font-weight: normal;
+      font-size: 14px;
+  }
+  .offer2{
+      display:flex;
+      
+  }
+  .chill{
+      width:50%;
+      height:500px;
+  }
+  .offer2__quote{
+      padding-top:135px;
+      padding-left:84px;
+      padding-right: 135px;
+      background: #53354a;
+  }
+  .offer2__quote_text{
+      font-size: 36px;
+      font-style: italic;
+      color:#fff;
+  }
+  .offer2__quote_author{
+      text-transform: uppercase;
+      font-size: 13px;
+      color:#fff;
+  }
+  .load{
+      text-align: center;
+      padding-top:100px;
+      padding-bottom:100px;
+  }
+  .load__title{
+      font-weight: bold;
+      font: size 28px;
+      color:#000;
+  }
+  .load__button{
+      height: 46px;
+      width: 280px;
+      border: none;
+      background-color: #e84545;
+      color:#fff;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: bold;
+  }
+  .load__text{
+      color:#000;
+      font-weight: normal;
+      font-size: 13px;
+      text-transform: uppercase;
+      padding-top:12px;
+      padding-bottom:40px;
+  }
+  footer{
+      background: #3a3e64;
+  }
+  .footer__location_title, .footer__share_title, .footer__about_title{
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 14px;
+      color:#fff;
+  }
+  .footer{
+    display:flex;
+    justify-content: space-around;
+    padding-left:270px;
+    padding-right: 170px;
+    padding-top:90px;
+    padding-bottom: 70px;
+  }
+  .footer__location{
+      width:200px;
+  }
+  .footer__share{
+    width:500px;
+    padding-left:90px;
+  }
+  .footer__about{
+    width:400px;
+  }
+  .footer__location_adress{
+      color:#a6a8b5;
+  }
+  .footer__share_text{
+      color:#a6a8b5;
+  }
+  .footer__about_text{
+      color:#a6a8b5;
+  }
+  .red{
+      color:red;
+  }
+  .bold{
+      font-weight: bold;
+  }
+
+  
+
+  
+
